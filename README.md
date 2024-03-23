@@ -11,9 +11,14 @@ ____
 - [Make sure you also take a look at this VRChat avatar created using this feature!
 (Cackle Crew)](https://darnhyena.itch.io/cackle-crew)
 - Thanks to PaintedHyenas for helping test this feature!
-
-
+### Utilities
+- BlendModes
+  - Unity BlendModes for Colors
+- Palettes
+  - Dominate Color Sampling
+- Textures
+  - Color Blocks
 ### Planned Features
 - Icon Generation
-- Palette Extractor
+- Color Masking
 - ... And Further Possible General Texture / Pixel Utilities
