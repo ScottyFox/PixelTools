@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9baac200f9bfe84f94e184b9c743b72, type: 3}
+  m_Name: DefaultBlendModeShaderLibrary
+  m_EditorClassIdentifier: 
+  Burn: {fileID: 4800000, guid: 7f7bb2964d84db640b6a52688b3144a6, type: 3}
+  Darken: {fileID: 4800000, guid: ea63971d9e808234daadbbb92b0548ac, type: 3}
+  Difference: {fileID: 4800000, guid: e480e978ad1981e4f9c5bfd20ba1efd7, type: 3}
+  Dodge: {fileID: 4800000, guid: 2e60c6fb377e31443974dd16bf27ae49, type: 3}
+  Divide: {fileID: 4800000, guid: 00687afaa9b6fa44a8a589dbd0bba2e1, type: 3}
+  Exclusion: {fileID: 4800000, guid: c58248f0ef752174bbb986c0baec922e, type: 3}
+  HardLight: {fileID: 4800000, guid: 4b3831760973f1c4dae33a04f0dd1894, type: 3}
+  HardMix: {fileID: 4800000, guid: 575bd96dcdf827048a03d2ee5de10b14, type: 3}
+  Lighten: {fileID: 4800000, guid: 5964880d92154754ebc5ca6f5171d2f6, type: 3}
+  LinearBurn: {fileID: 4800000, guid: 1afdabbfe23ce3d45903fa2f82431344, type: 3}
+  LinearDodge: {fileID: 4800000, guid: d2a82c5b0ec13d74da4443c7da755bac, type: 3}
+  LinearLight: {fileID: 4800000, guid: 0a490fb0e216b3347a7fcc3566440ee7, type: 3}
+  LinearLightAddSub: {fileID: 4800000, guid: 9217877806d33324bb7220fb106db116, type: 3}
+  Multiply: {fileID: 4800000, guid: c1ea031aedd14434f83cca12590a4c14, type: 3}
+  Negation: {fileID: 4800000, guid: 801bf6f8679b06745ac8e20328bc9eaa, type: 3}
+  Overlay: {fileID: 4800000, guid: 7fce15a58595ca8438c9766dd13091e5, type: 3}
+  PinLight: {fileID: 4800000, guid: 4f9a71fd8a2334b44926e25086354e86, type: 3}
+  Screen: {fileID: 4800000, guid: ccab8a5618f421d4aae8f924a71e52e1, type: 3}
+  SoftLight: {fileID: 4800000, guid: a6d642bd780c2ff4aa8cfaf400badfa0, type: 3}
+  Subtract: {fileID: 4800000, guid: a539988f67a1915478386fcff070d3b8, type: 3}
+  VividLight: {fileID: 4800000, guid: 687478a5683d05949a2855ecd26120de, type: 3}
+  Overwrite: {fileID: 4800000, guid: 8c01f1f91f3e0c04c878def9d32d27ed, type: 3}
+  UVDraw: {fileID: 4800000, guid: ac1fa780cb85bd4499c17282d3e625ff, type: 3}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a1b19dfe477d64e833072b14121302, type: 3}
+  m_Name: UpdaterExampleBundle
+  m_EditorClassIdentifier: 
+  library: {fileID: 11400000, guid: ddf930e7b366c1741b353326530451b0, type: 2}
+  outputSize: {x: 1024, y: 1024}
+  layerBundle:
+    backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+    layers:
+    - name: Shapes
+      enabled: 1
+      mode: 22
+      color: {r: 1, g: 0.7948199, b: 0.27843142, a: 1}
+      texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+      mask: {fileID: 0}
+    - name: Shapes
+      enabled: 1
+      mode: 22
+      color: {r: 0.27735847, g: 1, b: 0.40881163, a: 1}
+      texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+      mask: {fileID: 2800000, guid: 9f7ac45af90a76249b1b3204916e844d, type: 3}
+  updateMaterials: 1
+  materialsToUpdate:
+  - material: {fileID: 2100000, guid: 111e819130cf9764d9a3959fda82db77, type: 2}
+    textureProperties:
+    - _BaseMap
+    - _MainTex
+  generateOutput: 1
+  outputLocation: PixelTools/Examples/ShaderTextures/Updater/UpdaterExample.png
